@@ -3,8 +3,8 @@ def my_each (arr)
   i = 0 
   while i < arr.length
    #yielding each element contained to a block 
-   yield (collection[i]) 
+   yield (arr[i]) 
     i = i+1
   end 
-  collection 
+  arr 
 end
